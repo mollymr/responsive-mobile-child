@@ -80,7 +80,7 @@ require $template_directory . '/includes/functions-menu.php';
 /**
  * Register Sidebars
  */
-require $template_directory . '/includes/functions-sidebar.php';
+// require $template_directory . '/includes/functions-sidebar.php';
 
 /**
  * Plugin compatibility
@@ -103,7 +103,7 @@ require $template_directory . '/core/functions-install.php';
 require $template_directory . '/core/functions-admin.php';
 
 // enabling theme support for title tag
-function responsivemobile_title_setup() 
+function responsivemobile_title_setup()
 {
 	add_theme_support( 'title-tag' );
 }

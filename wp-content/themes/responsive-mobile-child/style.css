@@ -1,0 +1,64 @@
+/*
+Theme Name:     responsive-mobile Child
+Theme URI:      
+Description:    Child responsive-mobile
+Author:         TH
+Author URI:     
+Template:       responsive-mobile
+Version:        1.0
+*/
+ 
+/* =home widget width 
+-------------------------------------------------------------- */
+@media (min-width: 992px){
+.home-widget {
+    	float: left;
+    	width: 25%;
+	z-index: 999;
+	margin-top: -100px;
+	transform: skewX(-15deg);
+}
+
+.home-widget-title {
+	transform: skewX(15deg);
+}
+
+#widgets {
+	margin-bottom: 20px;
+}
+
+.home-widgets {
+	position: relative;
+	margin-right: auto;
+    	margin-left: auto;
+}
+
+
+#footer {
+	z-index: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    padding-top: 20px;
+    background-color: #333333;
+    color: #999999;
+}
+
+.widget-title-home {
+	color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: black;
+}
+
+.front-page .content-area {
+    width: 100%;
+    padding: 0;
+    background: #0079C0;
+    margin: 0;
+    color: #fff;
+    z-index: 1;
+}

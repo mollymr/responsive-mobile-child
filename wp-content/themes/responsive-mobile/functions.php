@@ -80,7 +80,7 @@ require $template_directory . '/includes/functions-menu.php';
 /**
  * Register Sidebars
  */
-// require $template_directory . '/includes/functions-sidebar.php';
+require $template_directory . '/includes/functions-sidebar.php';
 
 /**
  * Plugin compatibility

@@ -21,7 +21,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Register widgetized area and update sidebar with default widgets.
  */
-function responsive_mobile_widgets_init() {
+// function responsive_mobile_widgets_init_redo() {
 	register_sidebar( array(
 		'name'          => __( 'Home Widget 4', 'responsive-mobile' ),
 		'description'   => __( 'Area 9 - sidebar-home.php - Displays on the Home Page', 'responsive-mobile' ),
@@ -31,5 +31,5 @@ function responsive_mobile_widgets_init() {
 		'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
 		'after_widget'  => '</div>'
 	) );
-}
-add_action( 'widgets_init', 'responsive_mobile_widgets_init' );
+// }
+// add_action( 'widgets_init', 'responsive_mobile_widgets_init_redo' );
